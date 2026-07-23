@@ -1,7 +1,27 @@
 aid: aesop
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aesop.png
 name: AESOP
-description: AESOP is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: AESOP Technology is a clinical AI company building a Clinical Deep Reasoning
+  engine that reconstructs, models, and analyzes how clinicians make decisions across
+  diagnosis, treatment, medication management, and medical coding. A 2019 spinoff from
+  Taipei Medical University now headquartered in San Francisco, AESOP trains on more than
+  3.2 billion real-world medical records and 5 million clinical decision pathways to make
+  clinical reasoning explicit, traceable, and actionable. Its products DxPrime (diagnostic
+  integrity and automated code translation, a qualified solution on Mayo Clinic Platform)
+  and Medigator integrate with EHR systems to improve patient safety, coding accuracy, and
+  medication management. AESOP is backed by 500 Global, Taiwania Capital, BE Capital, and
+  Colopl Next.
 url: https://raw.githubusercontent.com/api-evangelist/aesop/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +34,14 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Health
+- Healthcare
+- Artificial Intelligence
+- Clinical Decision Support
+- Medical Coding
+- Diagnostics
+- Medical AI
+- Patient Safety
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/aesop-domain-security.yml
 - type: Website
-  url: https://aesoptek.com
+  url: https://www.aesoptek.com
+- type: About
+  url: https://www.aesoptek.com/about.html
+- type: Blog
+  url: https://www.aesoptek.com/news
+- type: LinkedIn
+  url: https://www.linkedin.com/company/aesoptechnology
+- type: YouTube
+  url: https://m.youtube.com/@aesoptechnology
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
